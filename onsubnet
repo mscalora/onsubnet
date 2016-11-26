@@ -5,7 +5,8 @@ if [[ "$1" == "--help" ]] || [[ "$1" == "-h" ]]  || [[ "$1" == "" ]] ; then
   printf "Example:\n\tonsubnet 10.10.\n\tonsubnet --not 192.168.0.\n\n"
   printf "Note:\n\tThe partial-ip-address must match starting at the first\n"
   printf "\tcharacter of the ip-address, therefore the first example\n"
-  printf "\tabove will match 10.10.10.1 but not 110.10.10.1\n"
+  printf "\tabove will match 10.10.10.1 but not 110.10.10.1\n\n"
+  printf "See:\n\thttps://github.com/mscalora/onsubnet\n"
   exit 0
 fi
 
