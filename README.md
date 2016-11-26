@@ -17,3 +17,7 @@ This script was specifically created to be used with the ssh-config 'Match exec'
     Match exec "onsubnet --not 10.10.1." host my-server
         HostName web.example.com
         Port 1111
+
+=== Install on Mac
+
+    brew install mscalora/mscalora/onsubnet
